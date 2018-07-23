@@ -1,0 +1,10 @@
+{
+  "buzzer": {
+    "pin" : 3,
+    "freq"  : 200
+  },
+  "vibration": {
+    "pin" : 5
+  },
+}
+}

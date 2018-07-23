@@ -1,0 +1,31 @@
+{
+  "command_info": {
+  "HELP" : {
+    "Command name:": "HELP",
+    "Description ": "online manual information. ",
+    "Syntax      :": "HELP <command_name>",
+    "Options     :": "command_name is given by: [CONFIG | START].",
+    "Example     :": "HELP - online information.  HELP CONFIG - system configuration. HELP START - system working mode."
+  },
+  "CONFIG":{
+    "Command name:": "CONFIG",
+    "Description :": "read system configuration",
+    "Syntax      :": "CONFIG ",
+    "Example     :": "CONFIG - read system info"
+  },
+  "MODE":{
+    "Command name:": "MODE",
+    "Description :": "system working mode",
+    "Syntax      :": "MODE <type> ",
+    "Options     :": "type is given by: [MANUAL | AUTO].",
+    "Default mode:": "MANUAL",
+    "Example     :": "START - start system in manual mode. START MANUAL - start system in manual mode. START AUTO - start system in automatic mode"
+    },
+    "QUIT":{
+      "Command name:": "QUIT",
+      "Description :": "terminate client execution",
+      "Syntax      :": "QUIT",
+      "Example     :": "QUIT - terminate client execution"
+    }
+  }
+}
